@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/vendor/bootstrap.css">
+  <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
   <link rel = "stylesheet" href="css/styles.css">
 
   <!-- icons -->
@@ -21,13 +22,13 @@
       <div>
         <ul class="nav justify-content-end">
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Links</a>
+            <a class="nav-link" href="#work">Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#connect">Connect</a>
           </li>
     <!-- <li class="nav-item">
       <a class="nav-link disabled" href="#">Disabled</a>
@@ -36,29 +37,115 @@
       </div>
 
       <!-- navbar ends -->
+
       <div class="container">
-        <div class="row title align-items-center">
+        <div class="row title">
           <div class="col-12">
-          <h1> Anirudh Kachroo</h1>
+            <h1> Anirudh Kachroo</h1>
           </div>
-          <!-- <i class= "pe-7s-home"> -->
-          <!-- <h2>Coder | CS Student | Designer</h2> -->
         </div>
-        
       </div>
+      <!-- particles ends -->
     </div>
   </header>
   
-  <section class="who-am-i">
+
+  <!-- who am i section starts -->
+  <section class="who-am-i" id="about">
+
     <div class = "container">
-      <div class="row intro">
-        <h2> Who Am I ?</h2>
-        <br>
-        <p>
-          I'm a second year computer science student at Sir M Visvesvaraya Institute of Technology
-        </p>
-      </div>
+      <div class="row intro-head align-items-center justify-content-center">
+        <div class="col col-12">
+          <h2> Who Am I</h2>
         </div>
+      </div>
+      <div class="row intro align-items-center justify-content-center">
+        <div class="col col-lg-4 col-sm-12">
+          <img src = "img/anirudh.jpg" alt = "Anirudh"> 
+        </div>
+        <div class="col col-lg-8 col-sm-12">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo laudantium dolores expedita, officiis veritatis corporis a! Dolorum magni harum illo ipsa commodi quasi, aliquid in numquam impedit ipsam adipisci rem.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At ipsam praesentium libero accusamus alias! Tempora cupiditate repellat odio voluptatibus asperiores iusto deserunt atque ipsa, veritatis amet? Ipsum nostrum earum ipsa.
+          </p>
+        </div> 
+      </div>
+    </div>
+  </section>
+
+  <!-- who am i section ends -->
+
+
+  <section class="what-i-do" id = "work">
+    <div class="container">
+
+      <div class="row do-title">
+        <div class="col col-12">
+          <h2> What I do </h2>
+        </div>
+      </div>
+
+      <div class="row skills-row">
+        <div class="col col-sm-12 col-lg-6">
+          <div class="skill-item">
+            <h3>Web Development</h3>
+            <img src="img/web2.jpg" alt = "web Development" class="skill-image">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, facilis! Veritatis labore inventore quibusdam saepe sed eveniet, vitae, deleniti tempora maiores excepturi numquam non suscipit expedita. Nesciunt eligendi facilis sit?</p>
+            <span class="skill-name">HTML</span>
+            <span class="skill-name">CSS</span>
+            <span class="skill-name">JavaScript</span>
+            <span class="skill-name">Bootstrap</span>
+            <span class="skill-name">Node.js</span>
+            <span class="skill-name">Flask</span>
+          </div>
+        </div>
+
+        <div class="col col-sm-12 col-lg-6">
+          <div class="skill-item">
+            <h3>Machine Learning</h3>
+            <img src="img/ml.jpg" alt = "web Development" class="skill-image">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, facilis! Veritatis labore inventore quibusdam saepe sed eveniet, vitae, deleniti tempora maiores excepturi numquam non suscipit expedita. Nesciunt eligendi facilis sit?</p>
+            <span class="skill-name">Python</span>
+            <span class="skill-name">Pandas</span>
+            <span class="skill-name">Statistics</span>
+            <span class="skill-name">Seaborn</span>
+            <span class="skill-name">Numpy</span>
+            <span class="skill-name">Scikit learn</span>
+            <span class="skill-name">Deep Learning</span>
+          </div>
+        </div>
+
+        <div class="col col-sm-12 col-lg-6">
+          <div class="skill-item">
+            <h3>Problem Solving</h3>
+            <img src="img/problem.jpg" alt = "web Development" class="skill-image">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, facilis! Veritatis labore inventore quibusdam saepe sed eveniet, vitae, deleniti tempora maiores excepturi numquam non suscipit expedita. Nesciunt eligendi facilis sit?</p>
+            <span class="skill-name">Algorithms</span>
+            <span class="skill-name">Data Structures</span>
+            <span class="skill-name">Discrete Mathematics</span>
+          </div>
+        </div>
+
+        <div class="col col-sm-12 col-lg-6">
+          <div class="skill-item">
+            <h3>Content Writing</h3>
+            <img src="img/write.jpg" alt = "web Development" class="skill-image">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, facilis! Veritatis labore inventore quibusdam saepe sed eveniet, vitae, deleniti tempora maiores excepturi numquam non suscipit expedita. Nesciunt eligendi facilis sit?</p>
+            <span class="skill-name">Creative Writing</span>
+            <span class="skill-name">Blogging</span>
+            <span class="skill-name">Poetry</span>
+          </div>
+        </div>
+      </div>
+      </div>
+
+   
+
+  
+  </div>
+
+  
+</div>
     </div>
   </section>
 </body>

@@ -26,38 +26,29 @@ html{
 }
 
 section{
-    padding-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
-.title{
-    color: white;
+
+h2{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    position: absolute;
-    top:50%;
-    max-width: 80%;
-    padding: auto 10px ;
-}
-
-.title h1{
-    text-align: center;
-    font-size:4rem;
-    font-weight: 100;
-    letter-spacing: 2px;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.title h2{
-    font-size:3rem;
-    font-weight: 100;
-    letter-spacing: 1px;
-    text-decoration: none;
-    text-transform: capitalize;
-    text-align: center;
 
 }
+
+h2:after{
+    content: " ";
+    width: 100px;
+    height: 2px;
+    background-color: #00909e;
+    display: block;
+    margin: 20px auto 40px auto;
+}
+
 .particles-div{
     height: 80%;
 }
+
+/* navbar */
 .nav{
     padding-top: 30px;
     padding-right: 20px;
@@ -74,19 +65,92 @@ section{
     color:white;
     border-bottom: solid 2px rgb(13, 243, 243);
 }
+/* nav end */
 
-.who-am-i{
-    background-color:white;
-}
+/* title */
 
-.intro h2{
+.title{
     text-align: center;
-    margin-left: 40px;
-    margin-bottom: 40px;
-    display: block;
+    color:white;
 }
+
+.title h1{
+    padding-top: 30%;
+    font-size: 4.5rem;
+    letter-spacing: 1px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    
+}
+/* title end */
+
+.intro-head{
+    text-align: center;
+}
+
+
+.intro-head h2{
+    font-size: 250%;
+}
+
+.intro{
+    justify-content: center;
+}
+.intro img{
+    width:100%;
+    /* padding-bottom: 80px; */
+    margin-right: 40px;
+    border-radius: 100%;
+}
+
+
 
 .intro p{
+    margin-top:auto;
+    color:#103072;
+    font-size: 120%;
+}
+
+
+.what-i-do{
+    background-image: linear-gradient(rgb(25, 4, 102),rgba(40, 10, 212, 0.534));
+}
+
+.do-title{
+    text-align: center;
+    color:white;
+    font-size: 250px;
+}
+
+.skills-row{
+    color:white;
     text-align: center;
 }
 
+
+.skill-item{
+    padding: 40px 20px;
+}
+
+.skill-item h,.skill-item p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 120%;
+}
+.skill-image{
+    display: inline-block;
+    width:100%;
+    height: 300px;
+    border-radius: 5%;
+    margin: 40px auto;
+}
+
+.skill-name{
+    display: inline-block;
+    border:solid 1px #dae1e7;
+    color:#142850;
+    background-color: white;
+    border-radius: 100%;
+    padding: 10px 20px;
+    margin: 5px;
+}
