@@ -81,8 +81,9 @@ section{
 
 .intro h2{
     text-align: center;
-    margin-left: 40%;
+    margin-left: 40px;
     margin-bottom: 40px;
+    display: block;
 }
 
 .intro p{
