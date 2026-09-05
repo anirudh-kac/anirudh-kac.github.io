@@ -1,0 +1,19 @@
+{
+  "name": "anirudh-personal-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 8000 --bind 127.0.0.1",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "tsc --allowJs --checkJs --noEmit --strict --target es2022 --module nodenext --lib es2022,dom js/app.js",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.11.1",
+    "@playwright/test": "1.63.0",
+    "prettier": "3.9.6",
+    "typescript": "5.9.3"
+  }
+}
